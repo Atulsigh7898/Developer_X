@@ -36,7 +36,7 @@
     <section class="hero" id="home">
         <div class="main-content" data-aos="fade-in">
             <h4>Hi, There!</h4>
-            <h1>I'm <span>Atul Singh</span></h1>
+            <h1>I'm <span class="input"></span></h1>
             <p>lorem ipsum dolor site amit, consectetur adispiscing elit 
                 fames turpis pretium bibendom nisle est sagittis aliquam
                 pretium.</p>
@@ -238,6 +238,15 @@
         </a>
      </div>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings:["Atul Singh", "Web Developer", "UI UX Designer"],
+            typeSpeed:70,
+            backSpeed:65,
+            loop:true,
+        })
+    </script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
    <script>
